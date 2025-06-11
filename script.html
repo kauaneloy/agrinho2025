@@ -1,0 +1,10 @@
+function responder(correto) {
+    const resultado = document.getElementById('resultado');
+    if (correto) {
+        resultado.innerText = "Parabéns! Você acertou. 😊🌱";
+        resultado.style.color = 'green';
+    } else {
+        resultado.innerText = "Ops! Essa não é a melhor atitude. 😟";
+        resultado.style.color = 'red';
+    }
+}
